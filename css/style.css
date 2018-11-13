@@ -2,9 +2,8 @@ body {
   font-size: 16px;
   color: #FFFFFF;
   background-color: #2AABE4;
-  font-family: 'Source Sans Pro'
+  font-family: 'Source Sans Pro';
   line-height: 1.2;
-
 }
 
 H1 {
@@ -79,11 +78,16 @@ li {
   float: right;
   padding: 30px;
   text-decoration: none;
-  a:link { color:#0070BB; } /* unvisited */
-  a:visited { color:#0070BA; } /* visited */
-  a:hover { color:#0070BC; } /* mouse over */
-  a:active { color:#0070BD; } /* selected */
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#0070BB; } /* unvisited */
+a:visited { color:#0070BA; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
 
 article {
   padding-top: 100px;
@@ -101,3 +105,4 @@ figure {
   color: #FFFFFF;
   font-family: 'Source Sans Pro';
   line-height: 1.2;
+}
